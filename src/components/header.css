@@ -1,0 +1,9 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shopping-card {
+    justify-content: space-between;
+    background-color: coral;
+    padding: 20px;
+}
