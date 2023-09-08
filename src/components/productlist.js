@@ -11,13 +11,13 @@ function Productlist(props)
     return(
         <>
     <div className='row'>
-    <div class="card" style={{width:" 18rem;"}}>
-    <img class="card-img-top" src={props.item.url} width={'40px'} alt="Card image cap"/>
-    <div class="card-body">
-    <h5 class="card-title">{props.item.name}</h5>
-    <h5 class="card-title">{props.item.category}</h5>
-    <p class="card-text">{props.item.seller}</p>
-    <h5 class="card-title">Rs:{props.item.price}/-</h5>
+    <div className="card" stryle={{width:" 18rem;"}}>
+    <img className="card-img-top" src={props.item.url} width={'40px'} alt="Card image cap"/>
+    <div className="card-body">
+    <h5 className="card-title">{props.item.name}</h5>
+    <h5 className="card-title">{props.item.category}</h5>
+    <p className="card-text">{props.item.seller}</p>
+    <h5 className="card-title">Rs:{props.item.price}/-</h5>
   <button onClick={add}>addtocart</button>
     </div>
     </div>
